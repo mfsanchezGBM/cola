@@ -1,5 +1,5 @@
 const agents = [
-    { phone: "50377463793", busy: false }, // Agente 1
+    { phone: "50376646334", busy: false }, // Agente 1
     { phone: "50376646334", busy: false }, // Agente 2
 ]; // Lista de agentes con sus números de teléfono
 
