@@ -69,6 +69,7 @@ const recibir = async (req, res) => {
                 }
 
                 if (text.includes("encuesta")){
+                    messageUtils.sendMessage(assignedClient, `Estimado cliente:\nCon el propósito de mejorar nuestros servicios, le solicitamos amablemente unos minutos de su tiempo para completar una breve encuesta. Su retroalimentación es de suma importancia para nosotros.\nPor favor, acceda a la encuesta mediante el siguiente enlace:https://encuestas.grupomutual.fi.cr/s/YjZ6AxfOnDGcD8fuk8XDXw/\nAgradecemos de antemano su colaboración y esperamos recibir sus comentarios.\n¡Que tenga un excelente día, muchas gracias!\nNota. El link del mensaje de finalización 2 debe de ser actualizado cada cuatro meses.`);
                     endSession(agent.phone, assignedClient);
                     console.log("Se cierra la sesion con cliente");
                 }
